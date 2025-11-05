@@ -1,4 +1,4 @@
-user_prompt = int(input("How old are you?:"))
+user_prompt = int(input("How old are you?"))
 
 current_year = 2023
 
