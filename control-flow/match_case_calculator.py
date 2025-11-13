@@ -1,0 +1,22 @@
+first_number = float(input("Enter the first number: "))
+second_number = float(input("Enter the second number: "))
+operator = input("Choose the operation (+, -, *, /): ")
+
+match operator:
+    case "+" : 
+        result = first_number + second_number
+        print(f"The result is {result}.")
+    case "-" : 
+        result = first_number - second_number
+        print(f"The result is {result}.")
+    case "*" : 
+        result = first_number * second_number
+        print(f"The result is {result}.")
+    case "/" : 
+        if second_number == 0:
+            print("can not divide by 0")
+        else:
+            result = first_number / second_number
+            print(f"The result is {result}.")
+    case _: 
+        print("Invalid Operator, Please choose +, -, *, or /")
