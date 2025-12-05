@@ -1,7 +1,7 @@
 from book_class import Book
 
 def main():
-    my_book = Book("Oscar", "Eddy Mike", 1995)
+    my_book = Book(1984, "George Orwell", 1949)
 
     print(my_book)
 
